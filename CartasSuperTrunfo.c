@@ -52,4 +52,31 @@ int main(){
     printf("PIB: %.2f\n", pib1);
     printf("Pontos Turísticos: %d\n", pontos_turisticos1);
 
+    puts(""); 
+
+    printf("Digite a carta: ");
+    scanf(" %c", &carta2);
+
+    printf("Digite o estado (ex: SP): ");
+    scanf("%2s", estado2);
+
+    printf("Digite o código da carta (ex: A12): ");
+    scanf("%3s", codigo2);
+
+    printf("Digite o nome da cidade: ");
+    scanf(" %20[^\n]", nome_da_cidade2);
+
+    printf("Digite a população: ");
+    scanf("%d", &populacao2);
+
+    printf("Digite a área em km²: ");
+    scanf("%f", &area2);
+
+    printf("Digite o PIB: ");
+    scanf("%f", &pib2);
+
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos2);
+
+
 }
