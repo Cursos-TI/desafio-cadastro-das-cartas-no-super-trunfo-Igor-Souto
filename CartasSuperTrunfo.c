@@ -17,6 +17,10 @@ int main(){
     float pib2;
     int pontos_turisticos1;
     int pontos_turisticos2;
+    float Densidade_Populacional1;
+    float PIB_per_Capita1;
+    float Densidade_Populacional2;
+    float PIB_per_Capita2;
 
  printf("Digite a carta: ");
     scanf(" %c", &carta1);
