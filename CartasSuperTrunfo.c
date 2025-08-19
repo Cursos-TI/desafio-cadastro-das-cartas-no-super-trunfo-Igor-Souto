@@ -46,6 +46,10 @@ int main(){
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontos_turisticos1);
 
+    Densidade_Populacional1 = (float) (populacao1 / area1);
+    PIB_per_Capita1 = (float) (pib1 *1000000000 ) / populacao1;
+
+
     printf("\n--- Dados da Carta ---\n");
     printf("Carta: %c\n", carta1);
     printf("Estado: %s\n", estado1);
