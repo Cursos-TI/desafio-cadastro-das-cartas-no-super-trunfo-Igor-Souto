@@ -104,4 +104,10 @@ int main(){
     printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional2);
     printf("Pib per Capita: %.2f reais\n", PIB_per_Capita2);
 
+    //Criação do objeto Super Poder 
+    float SuperPoder1 = populacao1 + area1 + pib1 + pontos_turisticos1 + PIB_per_Capita1 + ( 1 / Densidade_Populacional1);
+    float SuperPoder2 = populacao2 + area2 + pib2 + pontos_turisticos2 + PIB_per_Capita2 + ( 1 / Densidade_Populacional2);
+
+
+
 }
