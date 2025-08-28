@@ -118,15 +118,14 @@ int main(){
     printf("Carta 2 - %s (%s): %d\n", nome_da_cidade2, estado2, populacao2);
     
     
-    // Impressão do resultado da comparação 
-    printf("Comparação das cartas:\n");
-    printf("População: %s venceu\n", resultado_População == 1 ? "Carta 1" : "Carta 2");
-    printf("Área: %s venceu\n", resultado_area == 1 ? "Carta 1" : "Carta 2");
-    printf("Pib: %s venceu\n", resultado_pib == 1 ? "Carta 1" : "Carta 2");
-    printf("Pontos Turisticos: %s venceu\n", resultado_turistico == 1 ? "Carta 1" : "Carta 2");
-    printf("Densidade Populacional: %s venceu\n", resultado_densidade == 1 ? "Carta 1" : "Carta 2");
-    printf("Pib Per Capta: %s venceu\n", resultado_pib_per == 1 ? "Carta 1" : "Carta 2");
-    printf("Super Poder: %s venceu\n", SuperPoder == 1 ? "Carta 1" : "Carta 2");
+    //Lógica de comparação 
+     if (populacao1 > populacao2)
+    {
+        printf("Resultado: Carta 1 (%s) venceu!\n", nome_da_cidade1);
+    } else{
+        printf("Resultado: Carta 2 (%s) venceu!\n", nome_da_cidade2);
+    }
+
 
 
     return 0;
