@@ -111,22 +111,7 @@ int main(){
     float SuperPoder2 = populacao2 + area2 + pib2 + pontos_turisticos2 + PIB_per_Capita2 + ( 1 / Densidade_Populacional2);
 
 
-   //Comparação das cartas por atributo
-    
-    printf("Comparação das caratas (Atributo População)\n");
-    printf("Carta 1 - %s (%s): %d\n", nome_da_cidade1, estado1,populacao1);
-    printf("Carta 2 - %s (%s): %d\n", nome_da_cidade2, estado2, populacao2);
-    
-    
-    //Lógica de comparação 
-     if (populacao1 > populacao2)
-    {
-        printf("Resultado: Carta 1 (%s) venceu!\n", nome_da_cidade1);
-    } else{
-        printf("Resultado: Carta 2 (%s) venceu!\n", nome_da_cidade2);
-    }
-
-
+   int atributo;
 
     return 0;
 
