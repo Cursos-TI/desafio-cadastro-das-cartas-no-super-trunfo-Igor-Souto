@@ -113,6 +113,16 @@ int main(){
 
    int atributo;
 
+     printf("Escolha um atributo para duelar:\n");
+    printf("1. População\n");
+    printf("2. Área\n");
+    printf("3. Pib\n");
+    printf("4. número de Pontos Turísticos\n");
+    printf("5. Densidade Populacional\n");
+    printf("Digite sua escolha: ");
+    scanf("%d", &atributo);
+
+
     return 0;
 
 
