@@ -166,7 +166,7 @@ int main(){
         if (pib1 > pib2)
         {   
             printf("Carta 1: %s - %f\n", nome_da_cidade1, pib1);
-            printf("Carta 2: %s - %d\n", nome_da_cidade2, pib2);
+            printf("Carta 2: %s - %f\n", nome_da_cidade2, pib2);
             printf("##Carta 1 venceu!##\n");
         } else if (pib1 < pib2)
         {
