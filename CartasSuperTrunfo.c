@@ -122,6 +122,7 @@ int main(){
     printf("Digite sua escolha: ");
     scanf("%d", &atributo);
 
+    puts("");
 
     return 0;
 
